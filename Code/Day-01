@@ -1,0 +1,22 @@
+"""
+Day 1 - hello, world!
+version: 0.1
+author: jackie
+date:2022/02/07
+description: 使用turtle来简单的画图
+"""
+
+import turtle # import this function named turtle
+
+turtle.pensize(4)
+turtle.pencolor('green')
+turtle.forward(100) # below are all the move of the penpoint
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.mainloop() # 如果不加这句就很容易死循环
+
+
