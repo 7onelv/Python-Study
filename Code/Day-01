@@ -6,7 +6,7 @@ date:2022/02/07
 description: 使用turtle来简单的画图
 """
 
-import turtle # import this function named turtle
+import turtle # import this function that named turtle
 
 turtle.pensize(4)
 turtle.pencolor('green')
