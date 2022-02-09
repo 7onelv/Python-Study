@@ -14,5 +14,5 @@ print('该圆的面积是 %.2f' %area)
 
 # 判断该年是不是闰年
 year = int(input('请输入年份'))
-is_leap = year % 4 == 0 and year % 100 != 0 or year % 400 == 0
+is_leap = year % 4 == 0 and year % 100 != 0 or year % 400 == 0 # 闰年的判断标准为是4的倍数(但不是100的倍数）或是400的倍数。
 print(is_leap)
